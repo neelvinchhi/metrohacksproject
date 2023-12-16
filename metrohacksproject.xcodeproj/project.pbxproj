@@ -14,6 +14,7 @@
 		CDFFCEB22B2E28D50056C84C /* metrohacksprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEB12B2E28D50056C84C /* metrohacksprojectTests.swift */; };
 		CDFFCEBC2B2E28D50056C84C /* metrohacksprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEBB2B2E28D50056C84C /* metrohacksprojectUITests.swift */; };
 		CDFFCEBE2B2E28D50056C84C /* metrohacksprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEBD2B2E28D50056C84C /* metrohacksprojectUITestsLaunchTests.swift */; };
+		CDFFCECD2B2E34480056C84C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCECC2B2E34480056C84C /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CDFFCEB72B2E28D50056C84C /* metrohacksprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metrohacksprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFFCEBB2B2E28D50056C84C /* metrohacksprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metrohacksprojectUITests.swift; sourceTree = "<group>"; };
 		CDFFCEBD2B2E28D50056C84C /* metrohacksprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metrohacksprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDFFCECC2B2E34480056C84C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CDFFCEA22B2E28D20056C84C /* ContentView.swift */,
 				CDFFCEA42B2E28D50056C84C /* Assets.xcassets */,
 				CDFFCEA62B2E28D50056C84C /* Preview Content */,
+				CDFFCECC2B2E34480056C84C /* ChatView.swift */,
 			);
 			path = metrohacksproject;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFFCEA32B2E28D20056C84C /* ContentView.swift in Sources */,
+				CDFFCECD2B2E34480056C84C /* ChatView.swift in Sources */,
 				CDFFCEA12B2E28D20056C84C /* metrohacksprojectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
