@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDF4C80D2B2EAEF600D3F366 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4C80C2B2EAEF600D3F366 /* Message.swift */; };
+		CDF4C80F2B2EAF0E00D3F366 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4C80E2B2EAF0E00D3F366 /* ChatViewModel.swift */; };
+		CDF4C8112B2EAF2600D3F366 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4C8102B2EAF2600D3F366 /* ContentView.swift */; };
+		CDF4C8132B2EAF7300D3F366 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4C8122B2EAF7300D3F366 /* MessageView.swift */; };
+		CDF4C8162B2EB02600D3F366 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = CDF4C8152B2EB02600D3F366 /* Starscream */; };
 		CDFFCEA12B2E28D20056C84C /* metrohacksprojectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEA02B2E28D20056C84C /* metrohacksprojectApp.swift */; };
-		CDFFCEA32B2E28D20056C84C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEA22B2E28D20056C84C /* ContentView.swift */; };
 		CDFFCEA52B2E28D50056C84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFFCEA42B2E28D50056C84C /* Assets.xcassets */; };
 		CDFFCEA82B2E28D50056C84C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFFCEA72B2E28D50056C84C /* Preview Assets.xcassets */; };
 		CDFFCEB22B2E28D50056C84C /* metrohacksprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEB12B2E28D50056C84C /* metrohacksprojectTests.swift */; };
 		CDFFCEBC2B2E28D50056C84C /* metrohacksprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEBB2B2E28D50056C84C /* metrohacksprojectUITests.swift */; };
 		CDFFCEBE2B2E28D50056C84C /* metrohacksprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCEBD2B2E28D50056C84C /* metrohacksprojectUITestsLaunchTests.swift */; };
-		CDFFCECD2B2E34480056C84C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCECC2B2E34480056C84C /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CDF4C80C2B2EAEF600D3F366 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CDF4C80E2B2EAF0E00D3F366 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		CDF4C8102B2EAF2600D3F366 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDF4C8122B2EAF7300D3F366 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		CDFFCE9D2B2E28D20056C84C /* metrohacksproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metrohacksproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFFCEA02B2E28D20056C84C /* metrohacksprojectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metrohacksprojectApp.swift; sourceTree = "<group>"; };
-		CDFFCEA22B2E28D20056C84C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDFFCEA42B2E28D50056C84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFFCEA72B2E28D50056C84C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDFFCEAD2B2E28D50056C84C /* metrohacksprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metrohacksprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +51,6 @@
 		CDFFCEB72B2E28D50056C84C /* metrohacksprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metrohacksprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFFCEBB2B2E28D50056C84C /* metrohacksprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metrohacksprojectUITests.swift; sourceTree = "<group>"; };
 		CDFFCEBD2B2E28D50056C84C /* metrohacksprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metrohacksprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CDFFCECC2B2E34480056C84C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF4C8162B2EB02600D3F366 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,10 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				CDFFCEA02B2E28D20056C84C /* metrohacksprojectApp.swift */,
-				CDFFCEA22B2E28D20056C84C /* ContentView.swift */,
 				CDFFCEA42B2E28D50056C84C /* Assets.xcassets */,
 				CDFFCEA62B2E28D50056C84C /* Preview Content */,
-				CDFFCECC2B2E34480056C84C /* ChatView.swift */,
+				CDF4C80C2B2EAEF600D3F366 /* Message.swift */,
+				CDF4C80E2B2EAF0E00D3F366 /* ChatViewModel.swift */,
+				CDF4C8102B2EAF2600D3F366 /* ContentView.swift */,
+				CDF4C8122B2EAF7300D3F366 /* MessageView.swift */,
 			);
 			path = metrohacksproject;
 			sourceTree = "<group>";
@@ -146,6 +154,9 @@
 			dependencies = (
 			);
 			name = metrohacksproject;
+			packageProductDependencies = (
+				CDF4C8152B2EB02600D3F366 /* Starscream */,
+			);
 			productName = metrohacksproject;
 			productReference = CDFFCE9D2B2E28D20056C84C /* metrohacksproject.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +229,9 @@
 				Base,
 			);
 			mainGroup = CDFFCE942B2E28D20056C84C;
+			packageReferences = (
+				CDF4C8142B2EB02600D3F366 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = CDFFCE9E2B2E28D20056C84C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFFCEA32B2E28D20056C84C /* ContentView.swift in Sources */,
-				CDFFCECD2B2E34480056C84C /* ChatView.swift in Sources */,
 				CDFFCEA12B2E28D20056C84C /* metrohacksprojectApp.swift in Sources */,
+				CDF4C80F2B2EAF0E00D3F366 /* ChatViewModel.swift in Sources */,
+				CDF4C8112B2EAF2600D3F366 /* ContentView.swift in Sources */,
+				CDF4C80D2B2EAEF600D3F366 /* Message.swift in Sources */,
+				CDF4C8132B2EAF7300D3F366 /* MessageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDF4C8142B2EB02600D3F366 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDF4C8152B2EB02600D3F366 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDF4C8142B2EB02600D3F366 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CDFFCE952B2E28D20056C84C /* Project object */;
 }
