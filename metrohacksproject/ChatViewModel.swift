@@ -11,7 +11,10 @@ import Starscream
 
 class ChatViewModel: ObservableObject {
     @Published var messages: [Message] = []
+    
 
+    
+    
     func sendMessage(_ text: String, isUser: Bool) {
         let message = Message(text: text, isUser: isUser)
         messages.append(message)
